@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section className="text-center">
       <h2 className="text-4xl font-bold text-green-700 mb-4">
-        Explore the Himalayas
+        Explore SnowHikes Trekk Summury
       </h2>
       <p className="text-lg text-gray-600 max-w-2xl mx-auto">
         Discover breathtaking trekking routes, scenic valleys, and unforgettable adventures.
