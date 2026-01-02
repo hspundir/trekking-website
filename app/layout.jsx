@@ -6,7 +6,7 @@ export const metadata = {
   description: "Best trekking experiences in the mountains",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-gray-50 text-gray-800">
