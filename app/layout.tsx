@@ -22,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/about" className="hover:text-green-700">About</Link>
               <Link href="/services" className="hover:text-green-700">Services</Link>
               <Link href="/contact" className="hover:text-green-700">Contact</Link>
+              <Link href="/blog" className="hover:text-green-700">Blog</Link>
             </div>
           </div>
         </nav>
