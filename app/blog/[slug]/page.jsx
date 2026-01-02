@@ -1,19 +1,9 @@
 import { fetchHygraph } from "@/lib/hygraph";
 
-type Blog = {
-  title: string;
-  slug: string;
-  publishStatus: string;
-};
-
-type Props = {
-  params: { slug: string };
-};
-
-export default async function BlogDetail({ params }: Props) {
+export default async function BlogDetail({ params }) {
   const { slug } = params;
 
-  const data = await fetchHygraph<{ blogs: Blog[] }>(`
+  const data = await fetchHygraph(`
     {
       blogs(where: { slug: "${slug}" }) {
         title
